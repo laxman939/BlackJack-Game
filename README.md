@@ -1,7 +1,7 @@
 # BlackJack-Game
 
-### Deployment Link
-[https://grid-game-2048.netlify.app/](https://grid-game-2048.netlify.app/)
+### Deployment Link (GitHub pages)
+[https://laxman939.github.io/BlackJack-Game/](https://laxman939.github.io/BlackJack-Game/)
 
 
 #### Home page
