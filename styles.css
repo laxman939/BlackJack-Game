@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(181, 207, 173);
+}
+
+h1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 48vw;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 0 0 5px rgb(155, 129, 112), 0 0 10px rgb(212, 128, 128), 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #9b0909;
+    text-align: center;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+h2{
+    color: rgba(231, 14, 14, 0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    text-align: center;
+ 
+}
+
+/* Black Jack game play */  
+.container-bj{
+    width:60%;
+    margin:0 auto;
+    text-align:center;
+    border-radius:10px;
+    margin-top:2px;
+    border-top: none;
+    box-shadow: 1px 1px 5px 1px gray;
+}  
+
+@media screen and (max-width: 500px) {
+   /* Black Jack game play */  
+.container-bj{
+    width:96%;
+    margin:0 auto;
+    text-align:center;
+    border-radius:20px;
+    margin-top:2px;
+    border-top: none;
+    box-shadow: 1px 1px 5px 1px gray;
+} 
+
+/* Display score*/
+.flex-blackjack-row-1 h2{
+    font-size: 17px !important;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(26, 25, 25);
+}
+/* For cards */
+.flex-blackjack-row-1 img{
+    width:60%;
+    padding:10px;
+}
+
+  }
+/* Display score*/
+.flex-blackjack-row-1 h2{
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:rgb(26, 25, 25);
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    padding:10px;
+    background-position:center;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+       background-color: wheat;
+       background-position:center;
+}
+
+.flex-blackjack-row-1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* Boxes for Your and Dealer */
+.flex-blackjack-row-1 #player-box, #dealer-box{
+    border:1.5px solid rgb(3, 41, 2);
+    padding:10px;
+    flex:1;
+    min-height:330px;
+    border-radius: 10px;
+}
+
+/* For cards */
+.flex-blackjack-row-1 img{
+    width:40%;
+    padding:10px;
+}
+
+/* Buttons */
+button{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: blanchedalmond;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+:hover#hit-button{
+    background-color: #c7ab0a;
+    color: rgb(134, 5, 5);
+}
+:hover#stand-button{
+    background-color: #c7ab0a;
+    color: rgb(134, 5, 5);
+}
+:hover#deal-button{
+    background-color: #c7ab0a;
+    color: rgb(134, 5, 5);
+}
+
+/* Table for no of wons and losses*/
+.flex-blackjack-row-3 table, th, td{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: rgb(219, 223, 220);
+    border:1px solid black;
+    padding:1px
+}
+.flex-blackjack-row-3{
+    background-color: wheat;
+}
+#score-player, #score-dealer{
+    font-size: 20px;
+    color: rgb(223, 68, 41);
+}
